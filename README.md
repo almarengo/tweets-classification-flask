@@ -29,7 +29,7 @@ If you are on local machine then run:
 docker run -d -p 5000:5000 [my_flask_app_name]
 ```
 
-To check the app go on your browers at http://127.0.0.1:5000/
+To check the app go to your browers at http://127.0.0.1:5000/
 
 Or if you are deploying it on cluster, run:
 
@@ -39,4 +39,4 @@ docker run -d -p 80:5000 [my_flask_app_name]
 
 In this  case make sure to have allowed inbound HTTP inbound rule (port 80).
 
-To check the app go on your browers at instance-public-dns:80/
+To check the app go to your browers at [instance-public-dns]:80/
